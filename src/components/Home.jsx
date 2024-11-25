@@ -49,7 +49,7 @@ const Home = () => {
           </svg>
         </a>
       </article>
-      <article className="h-20 w-[95%] gap-2 m-auto flex items-center text-slate-700">
+      <article className="h-20 w-[95%] gap-2 m-auto flex items-center justify-between text-slate-700">
         <Button className="bg-[#D2DDCC]">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -108,7 +108,7 @@ const Home = () => {
         <h1 className="mb-3 font-semibold text-xl text-slate-700">
           Recipients
         </h1>
-        <div className=" flex flex-wrap gap-2 justify-between items-center">
+        <div className=" flex flex-wrap gap-2 justify-evenly items-center">
           <CardPerson src={userOne} title="Jane Cooper" mount="185" />
           <CardPerson src={userTwo} title="Marvin McKinney" mount="762" />
           <CardPerson src={userTree} title="Dianne Russell" mount="57" />
