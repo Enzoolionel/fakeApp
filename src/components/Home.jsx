@@ -49,7 +49,7 @@ const Home = () => {
           </svg>
         </a>
       </article>
-      <article className="h-20 w-[95%] gap-2 m-auto flex items-center justify-between text-slate-700">
+      <article className="h-20 w-[95%] m-auto flex items-center justify-between text-slate-700">
         <Button className="bg-[#D2DDCC]">
           <svg
             xmlns="http://www.w3.org/2000/svg"
